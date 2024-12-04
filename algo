@@ -1,0 +1,52 @@
+Largest Element in an Array.
+Algorithm
+Input: Array DATA of size n.
+Output: Find LOC of MAX
+Steps:
+Step 1:[Initialize] k=1, LOC=-1,MAX=DATA[1]
+Step 2:[ Increment] k(k=k+1)
+Step 3: [Test counter] IF k>N then write: LOC;MAX;EXIT
+
+Step 4: [Compare and update] IF MAX < DATA[K] then set: LOC:=k MAX:=DATA[k]
+
+
+
+Smallest Element in an Array
+Algorithm
+Algorithm
+Input: Array DATA of size n.
+Output: Find LOC of MIN
+Steps:
+Step 1:[Initialize] k=1, LOC=-1,MIN=DATA[1]
+Step 2:[ Increment] k(k=k+1)
+Step 3: [Test counter] IF k>N then write: LOC;MAX;EXIT
+
+Step 4: [Compare and update] IF MIN > DATA[K] then set: LOC:=k MIN:=DATA[k]
+Step 5: Go to Step 2.
+
+
+
+Count Even Numbers in an Array
+Algorithm
+Input: Array DATA of size N.
+Output: Total count of even numbers in array (COUNT)
+Steps:
+Step 1: [Initialize] k=1, COUNT=0
+Step 2: [Increment] k (k=k+1)
+Step 3: [Test counter] If k>N print COUNT and EXIT
+Step 4: [Compare and Update] If DATA[k]%2==0, then set: COUNT:=COUNT+1
+Step 5: Repeat Step 2.
+
+Find the second largest element
+Algorithm
+Input: Array DATA of size N
+Output: The second largest element (SECOND_MAX)
+Steps:
+Step 1: [Initialize] MAX=DATA[1], SECOND_MAX : = -∞ AND K:=2
+Step 2: [iNCREMENT] k(k+1)
+Step 3: [Test Counter] If k>N print SECOND_MAX and EXIT
+Step 4: [Compare and Update] If DATA[k]>MAX then set: SECOND_MA:X=MAX and MAX:=DATA[k]
+        ELSE IF DATA[k]>SECOND_MAX then set: SECOND_MAX:=DATA[k]
+
+
+
